@@ -1,0 +1,174 @@
+349.4 == script start ==
+355.4 entering keep-alive loop
+356.4 alive 1
+357.4 alive 2
+402.5 == script start ==
+408.4 entering keep-alive loop
+409.4 alive 1
+410.4 alive 2
+983.6 == script start ==
+989.6 entering keep-alive loop
+990.6 alive 1
+991.6 alive 2
+1106.1 == script start ==
+2207.7 == script start ==
+2213.7 entering keep-alive loop
+2214.7 alive 1
+2215.7 alive 2
+2981.5 == script start ==
+2987.5 entering keep-alive loop
+2988.5 alive 1
+2989.5 alive 2
+3674.0 == script start ==
+3680.1 entering keep-alive loop
+3681.1 alive 1
+3682.1 alive 2
+4388.8 == script start ==
+4395.3 entering keep-alive loop
+4396.3 alive 1
+4397.3 alive 2
+5091.3 cleanup called
+5120.9 cleanup called
+5447.0 == script start ==
+5453.4 entering keep-alive loop
+5454.4 alive 1
+5455.4 alive 2
+5465.2 cleanup called
+5689.7 == script start ==
+5696.8 entering keep-alive loop
+5697.8 alive 1
+5698.8 alive 2
+5702.9 cleanup called
+5714.2 == script start ==
+5720.3 entering keep-alive loop
+5721.3 alive 1
+5722.3 alive 2
+5726.0 cleanup called
+6882.2 == script start ==
+6890.8 entering keep-alive loop
+6891.8 alive 1
+6892.8 alive 2
+6903.2 cleanup called
+79.7 == script start ==
+88.9 entering keep-alive loop
+89.9 alive 1
+90.9 alive 2
+102.1 cleanup called
+221.5 == script start ==
+229.9 entering keep-alive loop
+230.9 alive 1
+231.9 alive 2
+259.0 cleanup called
+399.1 == script start ==
+407.6 entering keep-alive loop
+408.6 alive 1
+409.6 alive 2
+865.5 == script start ==
+874.3 entering keep-alive loop
+875.3 alive 1
+876.3 alive 2
+877.3 alive 3
+895.1 == script start ==
+904.2 entering keep-alive loop
+905.2 alive 1
+906.2 alive 2
+907.2 alive 3
+931.6 == script start ==
+939.6 entering keep-alive loop
+940.6 alive 1
+941.6 alive 2
+7350.5 == script start ==
+7362.7 entering keep-alive loop
+997.5 == script start ==
+1010.0 entering keep-alive loop
+1551.3 == script start ==
+1594.5 == script start ==
+1910.0 == script start ==
+3458.7 == script start ==
+4471.8 == script start ==
+7514.6 == script start ==
+7769.0 == script start ==
+7942.1 == script start ==
+8168.5 == script start ==
+8378.7 == script start ==
+8540.1 == script start ==
+8740.3 == script start ==
+8928.6 == script start ==
+9177.9 == script start ==
+9188.2 entering keep-alive loop
+9189.2 alive 1
+36946.4 == script start ==
+36956.8 entering keep-alive loop
+36957.8 alive 1
+37839.5 == script start ==
+37850.5 entering keep-alive loop
+37851.5 alive 1
+37852.5 alive 2
+38223.3 == script start ==
+38233.7 entering keep-alive loop
+38234.7 alive 1
+38546.1 == script start ==
+38557.3 entering keep-alive loop
+38558.3 alive 1
+39706.6 == script start ==
+39886.7 == script start ==
+68820.7 == script start ==
+69310.6 == script start ==
+69538.4 == script start ==
+70027.5 == script start ==
+70187.7 == script start ==
+70408.4 == script start ==
+70486.4 entering keep-alive loop
+70487.4 alive 1
+70488.4 alive 2
+70489.4 alive 3
+70501.4 alive 15
+70516.4 alive 30
+70531.4 alive 45
+70546.4 alive 60
+70561.4 alive 75
+70576.4 alive 90
+70591.4 alive 105
+70606.4 alive 120
+70617.0 == script start ==
+71037.4 == script start ==
+71373.1 == script start ==
+71702.4 == script start ==
+71718.1 entering keep-alive loop
+71719.1 alive 1
+71720.1 alive 2
+71721.1 alive 3
+71733.1 alive 15
+71748.1 alive 30
+71763.1 alive 45
+71778.1 alive 60
+71793.1 alive 75
+71808.1 alive 90
+71823.1 alive 105
+71838.1 alive 120
+71853.1 alive 135
+71868.1 alive 150
+71883.1 alive 165
+71898.1 alive 180
+71913.1 alive 195
+71928.2 alive 210
+71943.2 alive 225
+71958.2 alive 240
+71984.2 == script start ==
+71999.8 entering keep-alive loop
+72000.8 alive 1
+72001.8 alive 2
+72002.8 alive 3
+72014.8 alive 15
+72029.8 alive 30
+72044.8 alive 45
+72047.9 cleanup called
+72289.8 == script start ==
+72304.7 entering keep-alive loop
+72305.7 alive 1
+72306.7 alive 2
+72307.7 alive 3
+72319.7 alive 15
+72334.7 alive 30
+72349.7 alive 45
+72364.7 alive 60

@@ -1,0 +1,51 @@
+16:58:47 ================= RUN START =================
+16:58:47 win=10.0.19045 arch=AMD64 admin=True frozen=True py=3.13.14
+16:58:47 exe=C:\Users\Administrator\Desktop\Stinky CRacked\StinkyOffline.exe
+16:58:47 BASE=C:\Users\Administrator\Desktop\Stinky CRacked\app cwd=C:\Users\Administrator\Desktop\Stinky CRacked\app
+16:58:47 STINKY=C:\Users\Administrator\Desktop\Stinky CRacked\app\stlinky\Stinky.exe
+16:58:47   file kw_rva.txt: ok(8B)
+16:58:47   file license.txt: ok(31B)
+16:58:47   file capture_my_priv.bin: ok(32B)
+16:58:47   file cap_nonce_b64.txt: ok(44B)
+16:58:47   file cap_rid_b64.txt: ok(44B)
+16:58:47   file capture_response.json: ok(4071B)
+16:58:47   file mock_cert.pem: ok(1078B)
+16:58:47   file mock_key.pem: ok(1679B)
+16:58:47   stlinky/: ['archive', 'nacre_7f2c.dll', 'Slinky.exe.orig', 'Stinky.exe']
+16:58:47   stlinky/archive/: ['lib_win', 'lib_win.sha256', 'lib_win.sig', 'loader3_win', 'loader3_win.sha256', 'loader3_win.sig']
+16:58:49 port443 (before start): 127.0.0.1:443=FREE; 127.0.0.2:443=FREE  holders[none]
+15:56:00 system clock set to 2026-08-25 15:56:00 (restored on exit)
+15:56:00 hosts_add done, api.slinky.gg mapped=True
+15:56:00 cert_install done (certutil ROOT)
+15:56:00 mock server bound OK on 127.0.0.2:443
+15:56:03 closed Stinky process/thread handles to dodge anti-debug kill
+15:56:03 activation OK: breakpoints skc=True rid=True nonce=True secret=True -> detached; stinky_pid=8328
+15:56:03 activation(child): status='OK 8328' approved=True stinky_pid=8328
+15:56:04 LAS 127.0.0.1:443 (immediate): up=False
+15:56:09 LAS confirmed UP after 2s; port443[127.0.0.1:443 LastAck pid=8328(Stinky) | 127.0.0.1:443 Listen pid=8328(Stinky) | 127.0.0.1:443 LastAck pid=8328(Stinky)]
+16:59:52 system clock restored to real time: 2026-09-08 16:59:52.703625
+17:03:51 ================= RUN START =================
+17:03:51 win=10.0.19045 arch=AMD64 admin=True frozen=True py=3.13.14
+17:03:51 exe=C:\Users\Administrator\Desktop\Stinky CRacked\StinkyOffline.exe
+17:03:51 BASE=C:\Users\Administrator\Desktop\Stinky CRacked\app cwd=C:\Users\Administrator\Desktop\Stinky CRacked\app
+17:03:51 STINKY=C:\Users\Administrator\Desktop\Stinky CRacked\app\stlinky\Stinky.exe
+17:03:51   file kw_rva.txt: ok(8B)
+17:03:51   file license.txt: ok(31B)
+17:03:51   file capture_my_priv.bin: ok(32B)
+17:03:51   file cap_nonce_b64.txt: ok(44B)
+17:03:51   file cap_rid_b64.txt: ok(44B)
+17:03:51   file capture_response.json: ok(4071B)
+17:03:51   file mock_cert.pem: ok(1078B)
+17:03:51   file mock_key.pem: ok(1679B)
+17:03:51   stlinky/: ['archive', 'nacre_7f2c.dll', 'Slinky.exe.orig', 'Stinky.exe']
+17:03:51   stlinky/archive/: ['lib_win', 'lib_win.sha256', 'lib_win.sig', 'loader3_win', 'loader3_win.sha256', 'loader3_win.sig']
+17:03:53 port443 (before start): 127.0.0.1:443=FREE; 127.0.0.2:443=FREE  holders[none]
+15:56:00 system clock set to 2026-08-25 15:56:00 (restored on exit)
+15:56:00 hosts_add done, api.slinky.gg mapped=True
+15:56:00 cert_install done (certutil ROOT)
+15:56:00 mock server bound OK on 127.0.0.2:443
+15:56:03 closed Stinky process/thread handles to dodge anti-debug kill
+15:56:03 activation OK: breakpoints skc=True rid=True nonce=True secret=True -> detached; stinky_pid=21220
+15:56:03 activation(child): status='OK 21220' approved=True stinky_pid=21220
+15:56:04 LAS 127.0.0.1:443 (immediate): up=False
+15:56:08 LAS confirmed UP after 2s; port443[127.0.0.1:443 LastAck pid=21220(Stinky) | 127.0.0.1:443 LastAck pid=21220(Stinky) | 127.0.0.1:443 Listen pid=21220(Stinky)]

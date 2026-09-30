@@ -1,0 +1,95 @@
+07:53:22 selftest: capstone=OK gtc_stub=True qpc_stub=True plan=True
+07:53:22 === monitor started === frozen=True win=10.0.19045 capstone=True
+07:53:22 nacre found pid=20772 base=0x7ff8a53e0000 size=0x2099000 -> installing hooks
+07:53:23   [a1] hook kernelbase.dll!QueryPerformanceCounter: OK :: already-hooked @0x7ff96a4d0160
+07:53:23   [a1] hook kernel32.dll!GetTickCount64: OK :: already-hooked @0x7ff969e16070
+07:53:23   [a1] hook kernelbase.dll!GetTickCount64: OK :: already-hooked @0x7ff967e01e60
+07:53:23   [a1] hook kernel32.dll!GetTickCount: OK :: already-hooked @0x7ff969e15980
+07:53:23   [a1] hook kernelbase.dll!GetTickCount: OK :: already-hooked @0x7ff967e00790
+07:53:23   [a1] hook kernelbase.dll!QueryInterruptTime: OK :: already-hooked @0x7ff967ed6820
+07:53:23   [a1] hook kernelbase.dll!QueryUnbiasedInterruptTime: OK :: already-hooked @0x7ff96a4ee340
+07:53:23   [a1] hook kernelbase.dll!QueryInterruptTimePrecise: OK :: already-hooked @0x7ff967e2a480
+07:53:23   [a1] hook kernelbase.dll!QueryUnbiasedInterruptTimePrecise: OK :: already-hooked @0x7ff967ed6840
+07:53:23   [a1] hook ntdll.dll!RtlGetSystemTimePrecise: OK :: already-hooked @0x7ff96a4d00a0
+07:53:23 slow-hook nacre@0x7ff8a53e0000 pid=20772 attempt=1 newly_ok=10 done=10 retry_left=0
+07:53:23 slow-hook pid=20772 FINALIZED after 1 attempts, hooked=['kernel32.dll!GetTickCount', 'kernel32.dll!GetTickCount64', 'kernelbase.dll!GetTickCount', 'kernelbase.dll!GetTickCount64', 'kernelbase.dll!QueryInterruptTime', 'kernelbase.dll!QueryInterruptTimePrecise', 'kernelbase.dll!QueryPerformanceCounter', 'kernelbase.dll!QueryUnbiasedInterruptTime', 'kernelbase.dll!QueryUnbiasedInterruptTimePrecise', 'ntdll.dll!RtlGetSystemTimePrecise']
+08:00:55 selftest: capstone=OK gtc_stub=True qpc_stub=True plan=True
+08:00:55 === monitor started === frozen=True win=10.0.19045 capstone=True
+08:00:55 nacre found pid=20772 base=0x7ff8a53e0000 size=0x2099000 -> installing hooks
+08:00:55   [a1] hook kernelbase.dll!QueryPerformanceCounter: OK :: already-hooked @0x7ff96a4d0160
+08:00:55   [a1] hook kernel32.dll!GetTickCount64: OK :: already-hooked @0x7ff969e16070
+08:00:55   [a1] hook kernelbase.dll!GetTickCount64: OK :: already-hooked @0x7ff967e01e60
+08:00:55   [a1] hook kernel32.dll!GetTickCount: OK :: already-hooked @0x7ff969e15980
+08:00:55   [a1] hook kernelbase.dll!GetTickCount: OK :: already-hooked @0x7ff967e00790
+08:00:55   [a1] hook kernelbase.dll!QueryInterruptTime: OK :: already-hooked @0x7ff967ed6820
+08:00:55   [a1] hook kernelbase.dll!QueryUnbiasedInterruptTime: OK :: already-hooked @0x7ff96a4ee340
+08:00:55   [a1] hook kernelbase.dll!QueryInterruptTimePrecise: OK :: already-hooked @0x7ff967e2a480
+08:00:55   [a1] hook kernelbase.dll!QueryUnbiasedInterruptTimePrecise: OK :: already-hooked @0x7ff967ed6840
+08:00:55   [a1] hook ntdll.dll!RtlGetSystemTimePrecise: OK :: already-hooked @0x7ff96a4d00a0
+08:00:55 slow-hook nacre@0x7ff8a53e0000 pid=20772 attempt=1 newly_ok=10 done=10 retry_left=0
+08:00:55 slow-hook pid=20772 FINALIZED after 1 attempts, hooked=['kernel32.dll!GetTickCount', 'kernel32.dll!GetTickCount64', 'kernelbase.dll!GetTickCount', 'kernelbase.dll!GetTickCount64', 'kernelbase.dll!QueryInterruptTime', 'kernelbase.dll!QueryInterruptTimePrecise', 'kernelbase.dll!QueryPerformanceCounter', 'kernelbase.dll!QueryUnbiasedInterruptTime', 'kernelbase.dll!QueryUnbiasedInterruptTimePrecise', 'ntdll.dll!RtlGetSystemTimePrecise']
+08:03:55 selftest: capstone=OK gtc_stub=True qpc_stub=True plan=True
+08:03:55 === monitor started === frozen=True win=10.0.19045 capstone=True
+08:03:55 nacre found pid=20772 base=0x7ff8a53e0000 size=0x2099000 -> installing hooks
+08:03:55   [a1] hook kernelbase.dll!QueryPerformanceCounter: OK :: already-hooked @0x7ff96a4d0160
+08:03:55   [a1] hook kernel32.dll!GetTickCount64: OK :: already-hooked @0x7ff969e16070
+08:03:55   [a1] hook kernelbase.dll!GetTickCount64: OK :: already-hooked @0x7ff967e01e60
+08:03:55   [a1] hook kernel32.dll!GetTickCount: OK :: already-hooked @0x7ff969e15980
+08:03:55   [a1] hook kernelbase.dll!GetTickCount: OK :: already-hooked @0x7ff967e00790
+08:03:55   [a1] hook kernelbase.dll!QueryInterruptTime: OK :: already-hooked @0x7ff967ed6820
+08:03:55   [a1] hook kernelbase.dll!QueryUnbiasedInterruptTime: OK :: already-hooked @0x7ff96a4ee340
+08:03:55   [a1] hook kernelbase.dll!QueryInterruptTimePrecise: OK :: already-hooked @0x7ff967e2a480
+08:03:55   [a1] hook kernelbase.dll!QueryUnbiasedInterruptTimePrecise: OK :: already-hooked @0x7ff967ed6840
+08:03:55   [a1] hook ntdll.dll!RtlGetSystemTimePrecise: OK :: already-hooked @0x7ff96a4d00a0
+08:03:55 slow-hook nacre@0x7ff8a53e0000 pid=20772 attempt=1 newly_ok=10 done=10 retry_left=0
+08:03:55 slow-hook pid=20772 FINALIZED after 1 attempts, hooked=['kernel32.dll!GetTickCount', 'kernel32.dll!GetTickCount64', 'kernelbase.dll!GetTickCount', 'kernelbase.dll!GetTickCount64', 'kernelbase.dll!QueryInterruptTime', 'kernelbase.dll!QueryInterruptTimePrecise', 'kernelbase.dll!QueryPerformanceCounter', 'kernelbase.dll!QueryUnbiasedInterruptTime', 'kernelbase.dll!QueryUnbiasedInterruptTimePrecise', 'ntdll.dll!RtlGetSystemTimePrecise']
+15:56:09 nacre found pid=20124 base=0x7ff8a53e0000 size=0x2099000 -> installing hooks
+15:56:09   [a1] hook kernelbase.dll!QueryPerformanceCounter: OK :: OK @0x7ff96a4d0160 cap=True pro=48895c2408574883ec20448a0425c603fe7f488bd941f6c0010f847b7107004c plan=(rl=18,rips=[]) tramp=48895c2408574883ec20448a0425c603fe7f49ba72014d6af97f000041ffe2 jmp=49bb0001cf350000000041ffe3
+15:56:09   [a1] hook kernel32.dll!GetTickCount64: OK :: OK @0x7ff969e16070 cap=True pro=8b0c250400fe7fb82003fe7f48c1e120488b0048c1e00848f7e1488bc2c3cccc plan=(rl=16,rips=[]) tramp=8b0c250400fe7fb82003fe7f48c1e12049ba8060e169f97f000041ffe2 jmp=49bb0001d0350000000041ffe3
+15:56:09   [a1] hook kernelbase.dll!GetTickCount64: OK :: OK @0x7ff967e01e60 cap=True pro=8b0c250400fe7fb82003fe7f48c1e120488b0048c1e00848f7e1488bc2c3cccc plan=(rl=16,rips=[]) tramp=8b0c250400fe7fb82003fe7f48c1e12049ba701ee067f97f000041ffe2 jmp=49bb0001d1350000000041ffe3
+15:56:09   [a1] hook kernel32.dll!GetTickCount: OK :: OK @0x7ff969e15980 cap=True pro=b92003fe7f488b098b04250400fe7f480fafc148c1e818c3cccccccccccccccc plan=(rl=15,rips=[]) tramp=b92003fe7f488b098b04250400fe7f49ba8f59e169f97f000041ffe2 jmp=49bb00013e380000000041ffe3
+15:56:09   [a1] hook kernelbase.dll!GetTickCount: OK :: OK @0x7ff967e00790 cap=True pro=b92003fe7f488b098b04250400fe7f480fafc148c1e818c3cccccccccccccccc plan=(rl=15,rips=[]) tramp=b92003fe7f488b098b04250400fe7f49ba9f07e067f97f000041ffe2 jmp=49bb00013f380000000041ffe3
+15:56:09   [a1] hook kernelbase.dll!QueryInterruptTime: OK :: OK @0x7ff967ed6820 cap=True pro=b80800fe7f488b00488901c3cccccccccccccccccccccccccccccccccccccccc plan=(rl=13,rips=[]) tramp=b80800fe7f488b00488901c3cc49ba2d68ed67f97f000041ffe2 jmp=49bb000150380000000041ffe3
+15:56:09   [a1] hook kernelbase.dll!QueryUnbiasedInterruptTime: OK :: OK @0x7ff96a4ee340 cap=True pro=4883ec284885c90f847597040041bab003fe7f41bb0800fe7f4c8b05b0f11000 plan=(rl=13,rips=[]) tramp=4883ec284885c90f847597040049ba4de34e6af97f000041ffe2 jmp=49bb000151380000000041ffe3
+15:56:09   [a1] hook kernelbase.dll!QueryInterruptTimePrecise: OK :: OK @0x7ff967e2a480 cap=True pro=40534883ec20488bd9488d4c243048ff15939716000f1f4400004889034883c4 plan=(rl=14,rips=[]) tramp=40534883ec20488bd9488d4c243049ba8ea4e267f97f000041ffe2 jmp=49bb000152380000000041ffe3
+15:56:09   [a1] hook kernelbase.dll!QueryUnbiasedInterruptTimePrecise: OK :: OK @0x7ff967ed6840 cap=True pro=48895c24104889742418574883ec20488bf9beb003fe7f488b1e488d4c243048 plan=(rl=15,rips=[]) tramp=48895c24104889742418574883ec2049ba4f68ed67f97f000041ffe2 jmp=49bb000153380000000041ffe3
+15:56:09   [a1] hook ntdll.dll!RtlGetSystemTimePrecise: OK :: OK @0x7ff96a4d00a0 cap=True pro=48895c241048896c241848897424205741544155415641574883ec20bf5803fe plan=(rl=15,rips=[]) tramp=48895c241048896c2418488974242049baaf004d6af97f000041ffe2 jmp=49bb000154380000000041ffe3
+15:56:09 slow-hook nacre@0x7ff8a53e0000 pid=20124 attempt=1 newly_ok=10 done=10 retry_left=0
+15:56:09 slow-hook pid=20124 FINALIZED after 1 attempts, hooked=['kernel32.dll!GetTickCount', 'kernel32.dll!GetTickCount64', 'kernelbase.dll!GetTickCount', 'kernelbase.dll!GetTickCount64', 'kernelbase.dll!QueryInterruptTime', 'kernelbase.dll!QueryInterruptTimePrecise', 'kernelbase.dll!QueryPerformanceCounter', 'kernelbase.dll!QueryUnbiasedInterruptTime', 'kernelbase.dll!QueryUnbiasedInterruptTimePrecise', 'ntdll.dll!RtlGetSystemTimePrecise']
+16:06:08 selftest: capstone=OK gtc_stub=True qpc_stub=True plan=True
+16:06:08 === monitor started === frozen=True win=10.0.19045 capstone=True
+15:56:03 selftest: capstone=OK gtc_stub=True qpc_stub=True plan=True
+15:56:03 === monitor started === frozen=True win=10.0.19045 capstone=True
+16:18:05 selftest: capstone=OK gtc_stub=True qpc_stub=True plan=True
+16:18:05 === monitor started === frozen=True win=10.0.19045 capstone=True
+16:26:14 selftest: capstone=OK gtc_stub=True qpc_stub=True plan=True
+16:26:14 === monitor started === frozen=False win=10.0.19045 capstone=True
+15:58:37 selftest: capstone=OK gtc_stub=True qpc_stub=True plan=True
+15:58:37 === monitor started === frozen=False win=10.0.19045 capstone=True
+15:59:38 selftest: capstone=OK gtc_stub=True qpc_stub=True plan=True
+15:59:38 === monitor started === frozen=False win=10.0.19045 capstone=True
+15:59:26 selftest: capstone=OK gtc_stub=True qpc_stub=True plan=True
+15:59:26 === monitor started === frozen=False win=10.0.19045 capstone=True
+16:43:03 selftest: capstone=OK gtc_stub=True qpc_stub=True plan=True
+16:43:03 === monitor started === frozen=True win=10.0.19045 capstone=True
+16:48:40 selftest: capstone=OK gtc_stub=True qpc_stub=True plan=True
+16:48:40 === monitor started === frozen=True win=10.0.19045 capstone=True
+16:54:10 selftest: capstone=OK gtc_stub=True qpc_stub=True plan=True
+16:54:10 === monitor started === frozen=True win=10.0.19045 capstone=True
+16:58:51 selftest: capstone=OK gtc_stub=True qpc_stub=True plan=True
+16:58:51 === monitor started === frozen=True win=10.0.19045 capstone=True
+17:03:55 selftest: capstone=OK gtc_stub=True qpc_stub=True plan=True
+17:03:55 === monitor started === frozen=True win=10.0.19045 capstone=True
+15:56:18 nacre found pid=18168 base=0x7ff8a8d90000 size=0x2099000 -> installing hooks
+15:56:21   [a1] hook kernelbase.dll!QueryPerformanceCounter: OK :: OK @0x7ff96a4d0160 cap=True pro=48895c2408574883ec20448a0425c603fe7f488bd941f6c0010f847b7107004c plan=(rl=18,rips=[]) tramp=48895c2408574883ec20448a0425c603fe7f49ba72014d6af97f000041ffe2 jmp=49bb000107320000000041ffe3
+15:56:21   [a1] hook kernel32.dll!GetTickCount64: OK :: OK @0x7ff969e16070 cap=True pro=8b0c250400fe7fb82003fe7f48c1e120488b0048c1e00848f7e1488bc2c3cccc plan=(rl=16,rips=[]) tramp=8b0c250400fe7fb82003fe7f48c1e12049ba8060e169f97f000041ffe2 jmp=49bb000108320000000041ffe3
+15:56:21   [a1] hook kernelbase.dll!GetTickCount64: OK :: OK @0x7ff967e01e60 cap=True pro=8b0c250400fe7fb82003fe7f48c1e120488b0048c1e00848f7e1488bc2c3cccc plan=(rl=16,rips=[]) tramp=8b0c250400fe7fb82003fe7f48c1e12049ba701ee067f97f000041ffe2 jmp=49bb000109320000000041ffe3
+15:56:21   [a1] hook kernel32.dll!GetTickCount: OK :: OK @0x7ff969e15980 cap=True pro=b92003fe7f488b098b04250400fe7f480fafc148c1e818c3cccccccccccccccc plan=(rl=15,rips=[]) tramp=b92003fe7f488b098b04250400fe7f49ba8f59e169f97f000041ffe2 jmp=49bb00010a320000000041ffe3
+15:56:21   [a1] hook kernelbase.dll!GetTickCount: OK :: OK @0x7ff967e00790 cap=True pro=b92003fe7f488b098b04250400fe7f480fafc148c1e818c3cccccccccccccccc plan=(rl=15,rips=[]) tramp=b92003fe7f488b098b04250400fe7f49ba9f07e067f97f000041ffe2 jmp=49bb00010b320000000041ffe3
+15:56:21   [a1] hook kernelbase.dll!QueryInterruptTime: OK :: OK @0x7ff967ed6820 cap=True pro=b80800fe7f488b00488901c3cccccccccccccccccccccccccccccccccccccccc plan=(rl=13,rips=[]) tramp=b80800fe7f488b00488901c3cc49ba2d68ed67f97f000041ffe2 jmp=49bb000131330000000041ffe3
+15:56:21   [a1] hook kernelbase.dll!QueryUnbiasedInterruptTime: OK :: OK @0x7ff96a4ee340 cap=True pro=4883ec284885c90f847597040041bab003fe7f41bb0800fe7f4c8b05b0f11000 plan=(rl=13,rips=[]) tramp=4883ec284885c90f847597040049ba4de34e6af97f000041ffe2 jmp=49bb000132330000000041ffe3
+15:56:21   [a1] hook kernelbase.dll!QueryInterruptTimePrecise: OK :: OK @0x7ff967e2a480 cap=True pro=40534883ec20488bd9488d4c243048ff15939716000f1f4400004889034883c4 plan=(rl=14,rips=[]) tramp=40534883ec20488bd9488d4c243049ba8ea4e267f97f000041ffe2 jmp=49bb0001283a0000000041ffe3
+15:56:21   [a1] hook kernelbase.dll!QueryUnbiasedInterruptTimePrecise: OK :: OK @0x7ff967ed6840 cap=True pro=48895c24104889742418574883ec20488bf9beb003fe7f488b1e488d4c243048 plan=(rl=15,rips=[]) tramp=48895c24104889742418574883ec2049ba4f68ed67f97f000041ffe2 jmp=49bb0001293a0000000041ffe3
+15:56:21   [a1] hook ntdll.dll!RtlGetSystemTimePrecise: OK :: OK @0x7ff96a4d00a0 cap=True pro=48895c241048896c241848897424205741544155415641574883ec20bf5803fe plan=(rl=15,rips=[]) tramp=48895c241048896c2418488974242049baaf004d6af97f000041ffe2 jmp=49bb00012a3a0000000041ffe3
+15:56:21 slow-hook nacre@0x7ff8a8d90000 pid=18168 attempt=1 newly_ok=10 done=10 retry_left=0
+15:56:21 slow-hook pid=18168 FINALIZED after 1 attempts, hooked=['kernel32.dll!GetTickCount', 'kernel32.dll!GetTickCount64', 'kernelbase.dll!GetTickCount', 'kernelbase.dll!GetTickCount64', 'kernelbase.dll!QueryInterruptTime', 'kernelbase.dll!QueryInterruptTimePrecise', 'kernelbase.dll!QueryPerformanceCounter', 'kernelbase.dll!QueryUnbiasedInterruptTime', 'kernelbase.dll!QueryUnbiasedInterruptTimePrecise', 'ntdll.dll!RtlGetSystemTimePrecise']

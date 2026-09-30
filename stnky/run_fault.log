@@ -1,0 +1,48 @@
+[diag] ================= RUN START =================
+[diag] win=10.0.19045 arch=AMD64 admin=True frozen=False py=3.13.14
+[diag] exe=C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe
+[diag] BASE=C:\Users\Administrator\Desktop\Stinky CRacked\app cwd=C:\Users\Administrator\Desktop\Stinky CRacked\app
+[diag] STINKY=C:\Users\Administrator\Desktop\Stinky CRacked\app\stlinky\Stinky.exe
+[diag]   file kw_rva.txt: ok(8B)
+[diag]   file license.txt: ok(31B)
+[diag]   file capture_my_priv.bin: ok(32B)
+[diag]   file cap_nonce_b64.txt: ok(44B)
+[diag]   file cap_rid_b64.txt: ok(44B)
+[diag]   file capture_response.json: ok(4071B)
+[diag]   file mock_cert.pem: ok(1078B)
+[diag]   file mock_key.pem: ok(1679B)
+[diag]   stlinky/: ['archive', 'nacre_7f2c.dll', 'Slinky.exe.orig', 'Stinky.exe']
+[diag]   stlinky/archive/: ['lib_win', 'lib_win.sha256', 'lib_win.sig', 'loader3_win', 'loader3_win.sha256', 'loader3_win.sig']
+[diag] port443 (before start): 127.0.0.1:443=FREE; 127.0.0.2:443=FREE  holders[none]
+[reset] cleared leftover monitor / Stinky / port 443 from previous runs
+[monitor] launched via schtasks (independent of this window)
+Original system time: 2026-08-25 15:59:28
+[diag] system clock set to 2026-08-25 15:56:00 (restored on exit)
+Stinky Offline
+real time: 2026-08-25 07:56:00Z
+[diag] hosts_add done, api.slinky.gg mapped=True
+[diag] cert_install done (certutil ROOT)
+[diag] mock server bound OK on 127.0.0.2:443
+local server up (127.0.0.2:443)
+authorizing Stinky ...
+[diag] spoofed CreateProcess failed err=87, falling back
+[diag] Stinky spawned WITHOUT parent-spoof (fallback; anti-debug parent-kill may still hit us)
+[secret] rip=0x7ff6394edcf0 rdx=0x90c8efde40
+   [secret] ptr=0x249def12910 len=32 cur=d3a02876f4a48edf875a2f1a19e44888f2995ff53a8bc02b9863d157927aa547
+      -> d3a02876f4a48edf875a2f1a19e44888f2995ff53a8bc02b9863d157927aa547
+[skc] patched
+[rid] patched
+[nonce] patched
+[time-hook] Stinky pid=5968 hooked 4 time APIs
+[diag] closed Stinky process/thread handles to dodge anti-debug kill
+[detach] cleared PEB BeingDebugged + NtGlobalFlag
+[diag] activation OK: breakpoints skc=True rid=True nonce=True secret=True -> detached; stinky_pid=5968
+
+[diag] activation: stinky_ready=True license_approved=True stinky_pid=5968
+[diag] LAS 127.0.0.1:443 (immediate): up=False
+=====================================================
+ Stinky authorized! Starting the local service...
+ DO NOT open Slinky yet -- wait for the READY message below.
+ (opening Slinky now gives 'connection refused / target machine
+  actively refused it' -- that just means the service isn't up yet)
+=====================================================
