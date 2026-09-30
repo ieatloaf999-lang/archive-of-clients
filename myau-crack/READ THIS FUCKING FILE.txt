@@ -1,0 +1,13 @@
+CN：
+1.如何使用？：安装myau jar到你的1.8.9forge mods文件夹目录里
+2.打开你的mc启动器，找到java虚拟机参数，添加"-agentpath:<你的目录>agent.dll"       (带上双引号）
+交流群反馈bug：160451762
+
+
+EN:
+1. How to use?: Install the myau jar into your 1.8.9 Forge mods folder
+2. Open your MC launcher, find the JVM arguments, and add "-agentpath:<your path>\agent.dll"       (keep the quotation marks)
+
+
+
+Cracked by gangjiaomi105 & skateboardpig & fm8964 & duangwujie8964 & X3z
